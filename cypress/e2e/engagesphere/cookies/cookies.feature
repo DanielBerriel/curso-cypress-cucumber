@@ -1,5 +1,7 @@
+@engagesphere
 Feature: Cookies Consent Banner
 
+    @smoke
     Scenario: consents to the cookies' policies
         Given I access the EngageSphere app without any cookies set
         And I see the cookies consent banner
