@@ -1,3 +1,4 @@
+@engagesphere
 Feature: Items per page
 
     Scenario: shows the correct number of items per page (5, 10, 20, 50)

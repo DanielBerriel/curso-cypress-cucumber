@@ -1,8 +1,10 @@
+@engagesphere
 Feature: Greeting
 
     Background: access EngageSphere with the cookies consent banner already accepted
         Given I access the EngageSphere app having already accepted the cookies banner
 
+    @smoke
     Scenario: shows the default greeting
         Then I see the following greeting: Hi there!
 
