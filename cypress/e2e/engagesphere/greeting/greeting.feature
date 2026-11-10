@@ -6,5 +6,10 @@ Feature: Greeting
 
      Scenario: shows a customized greeting
         Given I access the EngageSphere app having already accepted the cookies banner 
-        When I type "Daniel" in the name input field
-        Then I see the following greeting: Hi "Daniel"!
+        When I type "<name>" in the name input field
+        Then I see the following greeting: Hi "<name>"!
+
+    Examples:
+        |  name  |
+        | Daniel |
+        | Araujo |
